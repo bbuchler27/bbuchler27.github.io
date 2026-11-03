@@ -3,12 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hockey analytics project by Ben Buchler comparing goals scored and goalie save percentage as predictors of NHL playoff qualification.">
+
+  <meta name="description"
+        content="Hockey analytics project by Ben Buchler comparing goals scored and goalie save percentage as predictors of NHL playoff qualification.">
+
   <title>The Truth Behind Playoff Hockey | Ben Buchler</title>
+
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 
 <body>
+
   <a class="skip" href="#main">Skip to content</a>
 
   <header>
@@ -33,7 +38,9 @@
     <section class="pagehero">
       <div class="wrap">
         <div class="eyebrow">Sports Analytics · R</div>
+
         <h1>The Truth Behind Playoff Hockey</h1>
+
         <p class="lead">
           Testing whether goals scored or goalie save percentage
           better explained NHL playoff qualification.
@@ -49,32 +56,35 @@
           <img
             class="workimg"
             src="assets/hockey-model-comparison.png"
-            alt="Comparison of goals-scored and goalie save-percentage logistic regression models."
+            alt="Comparison of the goals-scored and goalie save-percentage logistic regression models."
           >
 
           <p class="caption">
-            Comparison based on the project's reported AIC values.
+            Model comparison based on reported AIC values.
             Lower AIC indicates better relative model fit.
           </p>
 
           <section>
             <h2>The Analytical Question</h2>
+
             <p>
               Does goaltending explain NHL playoff qualification
               better than a team's ability to score goals?
-              I tested a common hockey intuition using data
-              rather than relying on conventional wisdom.
+              I tested this question using data rather than
+              relying on conventional wisdom.
             </p>
           </section>
 
           <section>
             <h2>My Role & Methods</h2>
+
             <p>
               I completed this individual academic analysis in R,
               combining hockeyR play-by-play information with
               MoneyPuck goalie statistics across the 2021–22,
               2022–23, and 2023–24 NHL seasons.
             </p>
+
             <p>
               I prepared team-season data and developed logistic
               regression models to evaluate the relationship
@@ -85,35 +95,41 @@
 
           <section>
             <h2>Key Findings</h2>
+
             <p>
               The goals-scored model had an AIC of
               <strong>54.31</strong>, compared with
               <strong>83.35</strong> for the save-percentage model.
             </p>
+
             <p>
               Because lower AIC indicates better relative model fit,
-              goals scored provided the stronger explanation among
-              the two models evaluated.
+              goals scored provided the stronger explanation
+              among the two models evaluated.
             </p>
+
             <p>
-              This result challenged my initial expectations
-              and demonstrated the importance of testing
-              assumptions through statistical analysis.
+              This challenged my initial expectations and
+              demonstrated the importance of testing assumptions
+              through statistical analysis.
             </p>
           </section>
 
           <section>
             <h2>Challenges & Limitations</h2>
+
             <p>
-              Combining multiple hockey datasets required
-              aligning teams and seasons while ensuring
-              consistency across observations.
+              Combining multiple hockey datasets required aligning
+              teams and seasons while ensuring consistency
+              across observations.
             </p>
+
             <p>
               The analysis covers only three seasons, and
               team-level goalie aggregates can conceal
               differences among individual goaltenders.
             </p>
+
             <p>
               The models establish associations rather than
               causation. AIC measures relative model fit,
@@ -123,12 +139,14 @@
 
           <section>
             <h2>Business Value</h2>
+
             <p>
               Professional sports organizations make consequential
               decisions under uncertainty, including player
               acquisitions, roster construction, and resource
               allocation.
             </p>
+
             <p>
               This project demonstrates my ability to evaluate
               competing explanations, compare statistical models,
@@ -161,7 +179,7 @@
             >
               <strong>View Model Comparison Chart →</strong>
               <small>
-                Visual comparison of the two logistic regression
+                Visual comparison of the logistic regression
                 models using their reported AIC values.
               </small>
             </a>
@@ -194,14 +212,10 @@
           <div class="panel">
             <h3>Explore More</h3>
 
-            <a href="projects.html">
-              ← All Projects
-            </a>
+            <a href="projects.html">← All Projects</a>
 
             <p style="margin-top:14px">
-              <a href="index.html">
-                Homepage →
-              </a>
+              <a href="index.html">Homepage →</a>
             </p>
           </div>
 
@@ -223,16 +237,24 @@
       </p>
 
       <p>
-        <a data-email href="mailto:ben.buchler@du.edu">Email</a>
+        <a data-email href="mailto:ben.buchler@du.edu">
+          Email
+        </a>
         &nbsp;·&nbsp;
-        <a data-linkedin href="https://www.linkedin.com/in/ben-buchler57">LinkedIn</a>
+        <a data-linkedin
+           href="https://www.linkedin.com/in/ben-buchler57">
+          LinkedIn
+        </a>
         &nbsp;·&nbsp;
-        <a data-github href="https://github.com/bbuchler27">GitHub</a>
+        <a data-github
+           href="https://github.com/bbuchler27">
+          GitHub
+        </a>
       </p>
 
       <p>
-        © <span data-year>2026</span> Ben Buchler ·
-        Built for GitHub Pages
+        © <span data-year>2026</span>
+        Ben Buchler · Built for GitHub Pages
       </p>
 
     </div>
